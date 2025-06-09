@@ -24,4 +24,25 @@ boodschappenlijst = ('kaas', 'melk', 'tomaten', 'hondenvoer', 'gehakt', 'kip',
                      'wasverzachter', 'hagelslag', 'pindakaas', 'brood')
 print(f'De middelste twee items uit de lijst zijn: {boodschappenlijst[4:6:1]}')
 
+woorden = ['lijsten', 'leren', 'Novi', 'python', 'programmeren', 'syntax']
+temp = []
+for woord in woorden:
+        temp.append(woord.upper())
+print(temp)
+
+tuple_lijst = [(1,2,3),(3,4,6),(6,4,8)]
+
+for rgb in tuple_lijst:
+    print(f'red = {rgb[0]}')
+    print(f'green = {rgb[1]}')
+    print(f'blue = {rgb[2]}')
+for r, g, b in tuple_lijst:
+      print(f'red = {r}')
+      print(f'green = {g}')
+      print(f'blue = {b}')
+
+
+
+
+
 
