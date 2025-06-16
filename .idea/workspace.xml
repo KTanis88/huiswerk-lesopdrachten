@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5199b0dd-576f-4368-a9cd-dce38ac34b58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="5199b0dd-576f-4368-a9cd-dce38ac34b58" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +64,7 @@
       <updated>1749472953273</updated>
       <workItem from="1749472954842" duration="88000" />
       <workItem from="1749473043559" duration="149000" />
-      <workItem from="1750056973107" duration="4217000" />
+      <workItem from="1750056973107" duration="4578000" />
     </task>
     <servers />
   </component>
@@ -76,6 +74,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lesopdracht$Tuples1.coverage" NAME="Tuples1 Coverage Results" MODIFIED="1750058036189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesopdracht$loops.coverage" NAME="loops Coverage Results" MODIFIED="1750060991585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lesopdracht$huiswerkopdracht_les_4.coverage" NAME="huiswerkopdracht les 4 Coverage Results" MODIFIED="1750061197456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesopdracht$huiswerkopdracht_les_4.coverage" NAME="huiswerkopdracht les 4 Coverage Results" MODIFIED="1750061486828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
