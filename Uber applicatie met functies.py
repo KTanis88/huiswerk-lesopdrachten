@@ -45,4 +45,47 @@ kosten = bereken_kosten(dienst['prijs'], kilometers)
 print(f'U heeft gekozen voor {dienst['naam']}. De kosten voor uw rit van {kilometers:.0f} kilometer(s) zijn €{kosten:.2f}')
 
 
+# Bonus: Voorkeursdienst instellen en gebruiken
+voorkeursdienst = None #Hier komt het nummer van de voorkeursdienst.
+
+#Instellen van de voorkeursdienst
+def stel_voorkeursdienst_in():
+    global voorkeursdienst
+    print('\n Voorkeursdienst instellen:')
+    print('1. Uber Black')
+    print('2. Uber Van')
+    print('3. Uber X')
+    keuze = input('Kies uw voorkeursdienst(1-3):')
+    if keuze in ['1','2','3']:
+        voorkeursdienst = int(keuze)
+        print('Voorkeursdienst opgeslagen.')
+    else:
+        print('Ongeldige keuze.')
+
+#Gebruiken van de voorkeursdienst bij het boeken van een rit
+
+def vraag_om_voorkeur():
+    global voorkeursdienst
+    if voorkeursdienst:
+        gebruik = input(f'Uw voorkeursdienst is {voorkeursdienst}. Wilt u deze gebruiken? (j/n):').lower()
+        if gebruik == 'j':
+            return voorkeursdienst
+    return None # Om te voorkomen dat het bestaande keuzeproces blijft lopen.
+
+# Bonus: Ritgeschiedenis bijhouden
+ritgeschiedenis = []
+
+def voeg_rit_toe(dienstnaam, kilometers, kosten):
+    ritgeschiedenis.append({'dienst': dienstnaam,
+                            'kilometers': kilometers,
+                            'kosten': kosten})
+
+def toon_ritgeschiedenis():
+    if not ritgeschiedenis:
+        print('Er zijn nog geen ritten gemaakt.')
+    else:
+        print('\n Ritgeschiedenis:')
+        for i, rit in enumerate(ritgeschiedenis,1):
+            print(f'{i}. {rit['dienst']} - {rit['kilometers']} km - €{rit['kosten']:.2f}')
+            
 
