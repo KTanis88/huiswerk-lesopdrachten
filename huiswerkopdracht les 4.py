@@ -16,9 +16,9 @@
 #         print('Number is' + str(number))
 #
 #         print('Out of loop')
-from Tuples1 import student
+#from Tuples1 import student
 
-#Maak een appplicatie die het volgende kan:
+#Maak een applicatie die het volgende kan:
 #Een lijst van studenten en cijfers opslaan.
 #Studenten en hun cijfers weergeven.
 #Het gemiddelde cijfer berekenen.
