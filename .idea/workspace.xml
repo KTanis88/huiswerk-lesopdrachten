@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5199b0dd-576f-4368-a9cd-dce38ac34b58" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uber applicatie met functies.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uber applicatie met functies.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
     "Python.Tuples1.executor": "Run",
     "Python.Uber applicatie met functies.executor": "Run",
     "Python.dicts_en_sets.executor": "Run",
+    "Python.functie_demo.executor": "Run",
     "Python.huiswerkopdracht les 4.executor": "Run",
     "Python.inhoud_cilinder.executor": "Run",
     "Python.loops.executor": "Run",
@@ -74,20 +76,37 @@
       <workItem from="1750062001068" duration="6255000" />
       <workItem from="1750068841480" duration="2958000" />
       <workItem from="1750241245780" duration="1192000" />
-      <workItem from="1750663880524" duration="1972000" />
+      <workItem from="1750663880524" duration="7208000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Uber applicatie met functies.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/functie_demo.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lesopdracht$Uber_applicatie_met_functies.coverage" NAME="Uber applicatie met functies Coverage Results" MODIFIED="1750069930213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesopdracht$Uber_applicatie_met_functies.coverage" NAME="Uber applicatie met functies Coverage Results" MODIFIED="1750670588460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesopdracht$Tuples1.coverage" NAME="Tuples1 Coverage Results" MODIFIED="1750058036189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesopdracht$loops.coverage" NAME="loops Coverage Results" MODIFIED="1750060991585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesopdracht$inhoud_cilinder.coverage" NAME="inhoud_cilinder Coverage Results" MODIFIED="1750065080514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesopdracht$huiswerkopdracht_les_4.coverage" NAME="huiswerkopdracht les 4 Coverage Results" MODIFIED="1750241406345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesopdracht$dicts_en_sets.coverage" NAME="dicts_en_sets Coverage Results" MODIFIED="1750666074840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lesopdracht$Set_en_Dictionary_Analyse.coverage" NAME="Set en Dictionary Analyse Coverage Results" MODIFIED="1750066569529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesopdracht$functie_demo.coverage" NAME="functie_demo Coverage Results" MODIFIED="1750671660162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesopdracht$Set_en_Dictionary_Analyse.coverage" NAME="Set en Dictionary Analyse Coverage Results" MODIFIED="1750667450213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
