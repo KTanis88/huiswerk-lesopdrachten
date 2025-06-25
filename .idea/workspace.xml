@@ -41,9 +41,13 @@
     "Python.functie_demo.executor": "Run",
     "Python.functie_demo2.executor": "Run",
     "Python.huiswerkopdracht les 4.executor": "Run",
+    "Python.humanizetest.executor": "Run",
     "Python.inhoud_cilinder.executor": "Run",
+    "Python.lijst.executor": "Run",
     "Python.loops.executor": "Run",
     "Python.opdracht les 6 namen.executor": "Run",
+    "Python.prettytabletest.executor": "Run",
+    "Python.pyfiglettest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -52,7 +56,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -77,7 +81,10 @@
       <workItem from="1750062001068" duration="6255000" />
       <workItem from="1750068841480" duration="2958000" />
       <workItem from="1750241245780" duration="1192000" />
-      <workItem from="1750663880524" duration="11707000" />
+      <workItem from="1750663880524" duration="13691000" />
+      <workItem from="1750834659330" duration="2118000" />
+      <workItem from="1750836804221" duration="137000" />
+      <workItem from="1750836950123" duration="2951000" />
     </task>
     <servers />
   </component>
@@ -101,15 +108,19 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lesopdracht$opdracht_les_6_namen.coverage" NAME="opdracht les 6 namen Coverage Results" MODIFIED="1750680158176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesopdracht$inhoud_cilinder.coverage" NAME="inhoud_cilinder Coverage Results" MODIFIED="1750065080514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesopdracht$dicts_en_sets.coverage" NAME="dicts_en_sets Coverage Results" MODIFIED="1750666074840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesopdracht$prettytabletest.coverage" NAME="prettytabletest Coverage Results" MODIFIED="1750838787179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesopdracht$functie_demo.coverage" NAME="functie_demo Coverage Results" MODIFIED="1750671660162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesopdracht$Set_en_Dictionary_Analyse.coverage" NAME="Set en Dictionary Analyse Coverage Results" MODIFIED="1750667450213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesopdracht$pyfiglettest.coverage" NAME="pyfiglettest Coverage Results" MODIFIED="1750837184348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesopdracht$Uber_applicatie_met_functies.coverage" NAME="Uber applicatie met functies Coverage Results" MODIFIED="1750670588460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesopdracht$Tuples1.coverage" NAME="Tuples1 Coverage Results" MODIFIED="1750058036189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesopdracht$functie_demo2.coverage" NAME="functie_demo2 Coverage Results" MODIFIED="1750671902774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lesopdracht$opdracht_les_6_namen.coverage" NAME="opdracht les 6 namen Coverage Results" MODIFIED="1750679019698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesopdracht$loops.coverage" NAME="loops Coverage Results" MODIFIED="1750060991585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lesopdracht$inhoud_cilinder.coverage" NAME="inhoud_cilinder Coverage Results" MODIFIED="1750065080514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesopdracht$lijst.coverage" NAME="lijst Coverage Results" MODIFIED="1750835628028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesopdracht$huiswerkopdracht_les_4.coverage" NAME="huiswerkopdracht les 4 Coverage Results" MODIFIED="1750241406345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lesopdracht$dicts_en_sets.coverage" NAME="dicts_en_sets Coverage Results" MODIFIED="1750666074840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lesopdracht$functie_demo.coverage" NAME="functie_demo Coverage Results" MODIFIED="1750671660162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lesopdracht$Set_en_Dictionary_Analyse.coverage" NAME="Set en Dictionary Analyse Coverage Results" MODIFIED="1750667450213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesopdracht$humanizetest.coverage" NAME="humanizetest Coverage Results" MODIFIED="1750838195767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
