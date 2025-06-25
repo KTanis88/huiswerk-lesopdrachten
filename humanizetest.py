@@ -1,5 +1,7 @@
 import humanize
 import datetime
+from datetime import date
+from datetime import time
 
 # Humanize schrijft dingen dusdanig op dat het makkelijk voor mensen te lezen is.
 # Bijvoorbeeld grote getallen of data
@@ -13,4 +15,5 @@ print(humanize.intcomma(12458493932))
 #Maar bijvoorbeeld ook in tijdsduur
 print(humanize.naturaltime(datetime.datetime.now()- datetime.timedelta(hours=6)))
 
-print(humanize.naturaldate())
+vandaag = datetime.date.today()
+print(humanize.naturaldate(vandaag))
