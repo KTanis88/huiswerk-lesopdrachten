@@ -1,4 +1,4 @@
-from prettytable import PrettyTable
+from prettytable import PrettyTable, TableStyle
 
 #prettytable zorgt voor het weergeven van tabellen in ASCII en export naar HTML/CSV
 
@@ -19,6 +19,7 @@ from prettytable import PrettyTable
 
 print("###################################################################################")
 
+
 clubs = ['VRC', 'GVVV', 'DOVO', 'Roda 46', 'Hooglanderveen', 'Hoogland', 'Jonathan']
 teams = ['JO11-3', 'JO11-1','JO11-2','JO11-2','JO11-2','JO11-2','JO11-3']
 winst = [9, 7, 6, 5, 4, 3, 1]
@@ -31,9 +32,12 @@ punten_per_verlies = 0
 
 tabel = PrettyTable()
 tabel.field_names = ["Clubs", "Teams", "Winst", "Gelijk", "Verlies", "Punten"]
+tabel.set_style(TableStyle.PLAIN_COLUMNS)
 
-for c, t, w, g, v, in zip(clubs, teams, winst, gelijk, verlies):
+
+for c, t, w, g, v, in zip(clubs, teams, winst, gelijk, verlies) :
     punten = w * punten_per_winst + g * punten_per_gelijk + v * punten_per_verlies
     tabel.add_row([c, t, w, g, v, punten])
 
 print(tabel)
+
